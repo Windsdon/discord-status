@@ -1,0 +1,29 @@
+{
+  "name": "discord-status",
+  "version": "1.0.0",
+  "description": "Uses Discord Webhooks to post API status messages to a channel ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Windsdon/discord-status.git"
+  },
+  "keywords": [
+    "discord",
+    "status",
+    "api"
+  ],
+  "author": "Windsdon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Windsdon/discord-status/issues"
+  },
+  "homepage": "https://github.com/Windsdon/discord-status#readme",
+  "dependencies": {
+    "async": "^2.1.1",
+    "cheerio": "^0.22.0",
+    "request": "^2.75.0"
+  }
+}
